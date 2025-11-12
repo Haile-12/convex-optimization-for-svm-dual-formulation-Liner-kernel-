@@ -115,12 +115,12 @@ Plots will automatically display the decision boundary and margins.
 --- Custom SVM Report ---
 Training Accuracy: 100.00%
 Test Accuracy: 100.00%
-Number of Support Vectors: 3
+Number of Support Vectors: 4
 
 --- scikit-learn Linear SVM Report ---
 Training Accuracy: 100.00%
 Test Accuracy: 100.00%
-Number of Support Vectors: 3
+Number of Support Vectors: 4
 ```
 
 Both implementations should produce visually identical decision boundaries with support vectors highlighted.
@@ -140,8 +140,7 @@ Both implementations should produce visually identical decision boundaries with 
 
 | File | Description |
 |------|-------------|
-| `svm_dual.ipynb` | Notebook with derivations, plots, and results |
-| `svm_dual.py` | Script version (load data → solve QP → plot) |
+| `svm_dual.ipynb` | Notebook with derivations, plots, and results and notes |
 | `README.md` | Documentation |
 
 ---
